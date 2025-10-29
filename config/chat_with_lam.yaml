@@ -19,7 +19,7 @@ default:
         connection_ttl: 900
         turn_config:
             turn_provider: "turn_server"
-            urls: ["turn:77.104.167.149:3478", "turns:77.104.167.149:5349"]
+            urls: ["turn:77.104.167.148:3478", "turns:77.104.167.148:5349"]
             username: "username"
             credential: "password"
       SileroVad:
