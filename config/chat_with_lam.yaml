@@ -11,11 +11,6 @@ default:
     concurrent_limit: 5
     handler_search_path:
       - "src/handlers"
-
-
-
-
-      
     handler_configs:
       LamClient:
         module: client/h5_rendering_client/client_handler_lam
@@ -24,7 +19,7 @@ default:
         connection_ttl: 900
       turn_config:
           turn_provider: "turn_server"
-          urls: ["turn:your-turn-server.com:3478", "turns:your-turn-server.com:5349"]
+          urls: ["turn:77.104.167.149:3478", "turns:77.104.167.149:5349"]
           username: "your-username"
           credential: "your-credential"
       SileroVad:
