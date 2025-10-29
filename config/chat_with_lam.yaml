@@ -22,7 +22,6 @@ default:
             urls: ["stun:77.104.167.149:53873", "turn:77.104.167.149:53261", "turns:77.104.167.149:53261"]
             username: "username"
             credential: "password"
-            realm: "turn.77-104-167-149.turnserver"
       SileroVad:
         module: vad/silerovad/vad_handler_silero
         speaking_threshold: 0.5
