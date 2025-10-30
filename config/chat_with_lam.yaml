@@ -14,7 +14,7 @@ default:
     handler_configs:
       LamClient:
         module: client/h5_rendering_client/client_handler_lam
-        asset_path: "lam_samples/barbara.zip"
+        asset_path: "lam_samples/xiaomei.zip"
         # max time a session will last for
         connection_ttl: 900
         turn_config:
