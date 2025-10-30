@@ -42,7 +42,7 @@ default:
       LLMOpenAICompatible:
         enabled: True
         module: llm/openai_compatible/llm_handler_openai_compatible
-        model_name: "qwen-plus"
+        model_name:  "qwen-vl-max" #"qwen-plus"
         enable_video_input: False # ensure your llm support video input
         history_length: 20
         # model_name: "gemini-2.0-flash"
